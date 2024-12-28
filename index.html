@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burney's Hot Chicken</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="contact-info py-3">
+        <p>Address: 2105 S. King St, Honolulu, HI</p>
+        <p>Phone: (808) 499-7915</p>
+        <p>Weekday Hours: Tues-Thurs 11:30am -8:30pm</p>
+        <p>Weekend Hours: Friday & Saturday 11:30am -2am</p>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="index.html"
+            ><img
+              width="30%"
+              src="./public/img/bhc-logo.png"
+              alt="Burney's Hot Chicken"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#our-story">Our Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locations.html">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://orders.burneyshotchicken.com"
+                  target="_blank"
+                  >Order Now</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container py-5">
+      <div class="slider-container">
+        <div
+          id="carouselExample"
+          class="carousel slide slider"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./public/img/food1.jpg"
+                class="d-block w-100"
+                alt="Food Item 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./public/img/food2.jpg"
+                class="d-block w-100"
+                alt="Food Item 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./public/img/food3.jpg"
+                class="d-block w-100"
+                alt="Food Item 3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="slider-content">
+          <h2>Welcome to Burney's Hot Chicken</h2>
+          <p>
+            Experience the best Nashville-style hot chicken in Honolulu. Spicy,
+            crispy, and unforgettable.
+          </p>
+        </div>
+      </div>
+      <section id="our-story" class="mb-5">
+        <h2>Our Story</h2>
+        <p>
+          Living in Hawaii has been a remarkable journey, but my story begins in
+          the southern states of Arkansas and Tennessee, where my family roots
+          are deeply embedded. Southern cooking was a cherished tradition at
+          family gatherings, filled with flavors that brought us together. Among
+          these dishes, one stood out—the Nashville-Style Hot Chicken sandwich.
+          It quickly became my all-time favorite, shared and enjoyed with loved
+          ones over the years.
+        </p>
+        <p>
+          When I moved to Honolulu, I found myself longing for that familiar
+          taste but discovered there wasn’t a place dedicated solely to this
+          iconic sandwich. So, I took matters into my own hands. After
+          perfecting the recipe and sharing it with friends and family, the
+          overwhelming response inspired me to bring a taste of the mainland to
+          the islands. Thus, the World’s Smallest Hot Chicken Stand was born,
+          right here in Honolulu, offering the community a flavor I had been
+          missing and couldn’t wait to share.
+        </p>
+      </section>
+      <section class="social-media mb-5">
+        <h2>Follow Us</h2>
+        <p>Stay connected with us on:</p>
+        <ul>
+          <li>
+            <i class="fab fa-tiktok"></i>
+            <a href="https://www.tiktok.com/@burneyshotchicken" target="_blank"
+              >@burneyshotchicken</a
+            >
+          </li>
+          <li>
+            <i class="fab fa-instagram"></i>
+            <a
+              href="https://www.instagram.com/burneyshotchicken"
+              target="_blank"
+              >@burneyshotchicken</a
+            >
+          </li>
+          <li>
+            <i class="fab fa-facebook"></i>
+            <a href="https://www.facebook.com/burneyshotchicken" target="_blank"
+              >@burneyshotchicken</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Burney's Hot Chicken. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

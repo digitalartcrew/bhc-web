@@ -1,0 +1,78 @@
+
+body {
+  background: red;
+  color: yellow;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.navbar {
+  background-color: #000;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.header-image img {
+  width: 100%;
+  height: auto;
+}
+.contact-info {
+  background-image: url("../public/img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.contact-info p {
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .contact-info {
+    text-align: right;
+  }
+}
+@media (max-width: 767px) {
+  .contact-info {
+    text-align: center;
+  }
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.slider {
+  width: 40%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+.slider img {
+  width: 100%;
+  display: block;
+}
+.slider-content {
+  flex: 1;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 1rem;
+}
+.social-media ul {
+  list-style: none;
+  padding: 0;
+}
+.social-media ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.social-media ul li a {
+  margin-left: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+.social-media ul li i {
+  font-size: 24px;
+}
