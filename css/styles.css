@@ -51,9 +51,9 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 20px;
 }
 .slider {
-  width: 40%;
   height: auto;
   overflow: hidden;
   position: relative;
