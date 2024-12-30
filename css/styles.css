@@ -18,6 +18,11 @@ body {
   height: auto;
 }
 
+.carousel {
+    border: 3px solid;
+    border-radius: 16px;
+}
+
 .container {
     text-align: center;
 }
@@ -53,6 +58,13 @@ body {
   .contact-info {
     text-align: center;
   }
+}
+
+.location-info ul li {
+    list-style: none;
+}
+.menu-section ul li {
+    list-style-type: none
 }
 .slider-container {
   display: flex;
