@@ -12,6 +12,8 @@ body {
   font-size: 28px;
     font-weight: bold;
   text-decoration: none;
+  text-shadow: 1px 1px 2px #000;
+  margin-right: 20px
 }
 .header-image img {
   width: 100%;
