@@ -96,7 +96,7 @@ footer {
   padding: 0;
 }
 .social-media ul li {
-  display: flex;
+  display: inline-block;
   align-items: center;
   margin-bottom: 0.5rem;
 }
