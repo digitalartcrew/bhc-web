@@ -5,7 +5,7 @@ body {
   font-family: "Trebuchet MS", sans-serif;
 }
 .navbar {
-  background-color: #000;
+  background-color: #e5430d;
 }
 .navbar a {
   color: white;
@@ -31,6 +31,17 @@ body {
     text-align: right;
   }
 }
+
+@media (max-width: 768px) {
+    .navbar a {
+        text-align: center;
+    }
+
+    .navbar a > img {
+        margin-left: 20px;
+    }  
+  }
+
 @media (max-width: 767px) {
   .contact-info {
     text-align: center;
