@@ -118,6 +118,19 @@ footer {
   font-size: 24px;
 }
 
+.stand-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.stand-images img {
+    border: 3px solid;
+    border-radius: 16px;
+}
+
 
 footer {
     position: fixed; 
