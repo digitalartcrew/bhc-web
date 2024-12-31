@@ -119,17 +119,31 @@ footer {
 }
 
 .stand-images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50%;
-
-}
-
-.stand-images img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px; /* Adjust spacing between images */
+    padding: 16px; /* Optional padding around the grid */
+  }
+  
+  .stand-images img {
+    width: 100%;
+    aspect-ratio: 1; /* Ensures images are square */
+    object-fit: cover; /* Ensures the image fits nicely within the square */
+    border-radius: 8px; /* Optional for rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional for a subtle shadow */
     border: 3px solid;
     border-radius: 16px;
-}
+  }
+  
+  /* Optional: Adjust the layout on smaller screens */
+  @media (max-width: 600px) {
+    .stand-images {
+      grid-template-columns: 1fr; /* Stacks images vertically on small screens */
+    }
+  }
+  
+
+
 
 
 footer {
