@@ -18,17 +18,46 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="script.js" defer></script>
+
+    <style>
+      /* Style for making images circular */
+      .menu-item img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      /* Add a line between each menu section */
+      .menu-section {
+        margin-bottom: 30px; /* Space between sections */
+        padding-bottom: 30px; /* Space at the bottom of the section */
+      }
+
+      .menu-section h2 {
+        border-bottom: 2px solid #333; /* Line below the section title */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      /* Add a border between sections */
+      .menu-section + .menu-section {
+        border-top: 2px solid #333;
+      }
+    </style>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand logo" href="index.html"
-            ><img
+          <a class="navbar-brand logo" href="index.html">
+            <img
               width="30%"
               src="./public/img/bhc-logo.png"
               alt="Burney's Hot Chicken"
-          /></a>
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -66,53 +95,246 @@
     </header>
     <main class="container py-5">
       <h1 class="text-center mb-4">Menu</h1>
+
+      <!-- Specials Section -->
       <div class="menu-section">
         <h2>Specials</h2>
-        <ul>
-          <li>Double Slider Platter - $19.99</li>
-          <li>Volcano Waffle - $14.99</li>
-          <li>Loaded Hot Chicken Fries - $14.99</li>
-        </ul>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Double Slider Platter"
+              />
+              <h3>Double Slider Platter - $19.99</h3>
+              <p>
+                Two juicy sliders served with crispy fries and a refreshing
+                drink.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="https://via.placeholder.com/100" alt="Volcano Waffle" />
+              <h3>Volcano Waffle - $14.99</h3>
+              <p>
+                A spicy waffle topped with our signature hot chicken and
+                drizzled with sauce.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Loaded Hot Chicken Fries"
+              />
+              <h3>Loaded Hot Chicken Fries - $14.99</h3>
+              <p>
+                Crispy fries loaded with spicy hot chicken and cheese sauce.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- Combos Section -->
       <div class="menu-section">
         <h2>Combos</h2>
         <small>Includes a side and a drink</small>
-        <ul>
-          <li>3 PC Chicken Tender - $19.99</li>
-          <li>Donte's Big Bad Chicken Sandwich - $16.99</li>
-          <li>2 PC Chicken Tender $14.99</li>
-          <li>Hot Mozzarella Sticks $14.99</li>
-          <li>Hot Waffle Slider - $13.99</li>
-          <li>Hot Chicken Slider $11.99</li>
-        </ul>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="3 PC Chicken Tender"
+              />
+              <h3>3 PC Chicken Tender - $19.99</h3>
+              <p>
+                Three crispy chicken tenders served with your choice of side and
+                drink.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Donte's Big Bad Chicken Sandwich"
+              />
+              <h3>Donte's Big Bad Chicken Sandwich - $16.99</h3>
+              <p>
+                Spicy fried chicken in a soft bun with pickles and special
+                sauce.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="2 PC Chicken Tender"
+              />
+              <h3>2 PC Chicken Tender - $14.99</h3>
+              <p>Two crispy tenders served with your choice of sauce.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Hot Mozzarella Sticks"
+              />
+              <h3>Hot Mozzarella Sticks - $14.99</h3>
+              <p>Crispy fried mozzarella sticks served with marinara sauce.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Hot Waffle Slider"
+              />
+              <h3>Hot Waffle Slider - $13.99</h3>
+              <p>Mini waffle sandwiches with crispy chicken and spicy sauce.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Hot Chicken Slider"
+              />
+              <h3>Hot Chicken Slider - $11.99</h3>
+              <p>Spicy slider with crispy chicken, pickles, and sauce.</p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- Ala Carte Section -->
       <div class="menu-section">
         <h2>Ala Carte</h2>
-        <ul>
-          <li>Hot Chicken Slider - $6.99</li>
-          <li>Waffle Chicken Slider - $7.99</li>
-          <li>Hot Mozzarella Cheesesticks - $9.99</li>
-          <li>Malu's Handcut Seasoned French Fries - $6.99</li>
-          <li>Waffle Fries - $7.99</li>
-          <li>Gigi's Hot Onion Rings - $7.99</li>
-        </ul>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Hot Chicken Slider"
+              />
+              <h3>Hot Chicken Slider - $6.99</h3>
+              <p>A spicy slider with crispy fried chicken on a soft bun.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="https://via.placeholder.com/100" alt="Waffle Fries" />
+              <h3>Waffle Fries - $7.99</h3>
+              <p>Crunchy waffle fries served with a side of dipping sauce.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Gigi's Hot Onion Rings"
+              />
+              <h3>Gigi's Hot Onion Rings - $7.99</h3>
+              <p>Crispy fried onion rings with a touch of spice.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Hot Chicken Wrap"
+              />
+              <h3>Hot Chicken Wrap - $9.99</h3>
+              <p>
+                Spicy fried chicken wrapped in a soft tortilla with fresh
+                veggies and sauce.
+              </p>
+            </div>
+          </div>
+          <!-- Added Malu's Handcut French Fries -->
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Malu's Handcut French Fries"
+              />
+              <h3>Malu's Handcut French Fries - $7.99</h3>
+              <p>
+                Fresh hand-cut fries, crispy on the outside, soft on the inside.
+              </p>
+            </div>
+          </div>
+        </div>
+        <p>
+          <strong>Note:</strong> Cheese can be added to any ala carte item for
+          $2.00.
+        </p>
       </div>
+
+      <!-- Desserts Section -->
       <div class="menu-section">
-        <h2>Ala Carte</h2>
-        <ul>
-          <li>Nico's Banana Pudding - $6.99</li>
-          <li>Gigi's Sweet Potato Pie - $6.99</li>
-        </ul>
+        <h2>Desserts</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Nico's Banana Pudding"
+              />
+              <h3>Nico's Banana Pudding - $6.99</h3>
+              <p>
+                A creamy banana pudding topped with fresh bananas and vanilla
+                wafers.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item">
+              <img
+                src="https://via.placeholder.com/100"
+                alt="Gigi's Sweet Potato Pie"
+              />
+              <h3>Gigi's Sweet Potato Pie - $6.99</h3>
+              <p>A deliciously sweet, homemade pie with a buttery crust.</p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- Beverages Section -->
       <div class="menu-section">
         <h2>Beverages</h2>
-        <ul>
-          <li>Lemonade (1 flavor) - $4.99 (+ $1.00 per flavor)</li>
-          <li>Soda (Sprite, Coke, Hawaiian Sun flavors) - $1.85</li>
-          <li>Hawaiian Mountain Water - $2.25</li>
-          <li>Waikea Water - $4.00</li>
-        </ul>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="https://via.placeholder.com/100" alt="Lemonade" />
+              <h3>Lemonade (1 flavor) - $4.99</h3>
+              <p>Refreshing lemonade with your choice of flavor.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="https://via.placeholder.com/100" alt="Soda" />
+              <h3>Soda - $1.85</h3>
+              <p>Choose from Sprite, Coke, or Hawaiian Sun flavors.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="menu-item">
+              <img src="https://via.placeholder.com/100" alt="Waikea Water" />
+              <h3>Waikea Water - $4.00</h3>
+              <p>Pure Hawaiian volcanic water in every bottle.</p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- Social Media Section -->
       <section class="social-media mb-5">
         <h2>Follow Us</h2>
         <p>Stay connected with us on:</p>
@@ -140,6 +362,7 @@
         </ul>
       </section>
     </main>
+
     <footer>
       <p>&copy; 2024 Burney's Hot Chicken. All rights reserved.</p>
     </footer>
