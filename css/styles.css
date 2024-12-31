@@ -57,6 +57,10 @@ body {
   margin: 0;
 }
 
+.navbar a > img {
+    margin-left: 20%;
+}  
+
 @media (min-width: 768px) {
   .contact-info {
     text-align: right;
