@@ -1,6 +1,10 @@
 
 body {
   background: red;
+  background-image: url("./../public/img/bhc-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position: 50% 50%;
   color: yellow;
   font-family: monospace;
   margin-bottom: 50px;
@@ -203,6 +207,3 @@ footer {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   }
 
-body {
-  
-  }
