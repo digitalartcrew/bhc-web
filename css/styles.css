@@ -11,10 +11,17 @@ body {
   color: red;
   font-size: 28px;
     font-weight: bold;
-  text-decoration: none;
+    text-decoration: black underline;
   text-shadow: 1px 1px 2px #000;
-  margin-right: 20px
+  margin-right: 20px;
+  display: inline-block; 
+  transition: transform 0.3s ease-in-out;
 }
+
+.navbar a:hover {
+    transform: scale(1.1); 
+}
+
 .header-image img {
   width: 100%;
   height: auto;
@@ -110,3 +117,16 @@ footer {
 .social-media ul li i {
   font-size: 24px;
 }
+
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+
+    color: white; 
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
