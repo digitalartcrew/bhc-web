@@ -4,6 +4,16 @@ body {
   color: yellow;
   font-family: monospace;
 }
+
+
+
+@media (min-width: 900px) {
+    header {
+        background-image: url("./../public/img/bhc-stand.png");
+        background-position: 1% 50%;
+        background-repeat: no-repeat;  
+    }
+}
 .navbar {
   background-color: #fff;
 }
@@ -59,7 +69,7 @@ body {
     }
 
     .navbar a > img {
-        margin-left: 20%;
+        margin-left: 10%;
     }  
   }
 
