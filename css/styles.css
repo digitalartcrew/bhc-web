@@ -3,6 +3,7 @@ body {
   background: red;
   color: yellow;
   font-family: monospace;
+  margin-bottom: 30px;
 }
 
 
@@ -200,4 +201,8 @@ footer {
     text-align: center;
     padding: 10px 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+body {
+  
   }
