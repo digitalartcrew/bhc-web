@@ -1,111 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Locations - Burney's Hot Chicken</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand logo" href="index.html"
-            ><img
-              width="30%"
-              src="./public/img/bhc-logo.png"
-              alt="Burney's Hot Chicken"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="locations.html">Locations</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="http://burneys-hot-chicken.square.site/"
-                  target="_blank"
-                  >Order Now</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main class="container py-5">
-      <h1 class="text-center mb-4">Locations</h1>
-      <div class="location-info">
-        <h2>Burney's Hot Chicken - Honolulu</h2>
-        <p>Address: 2105 S. King St, Honolulu, HI</p>
-        <p>Phone: (808) 499-7915</p>
-        <p>Hours:</p>
-        <ul>
-          <li>Tuesday-Thursday: 11:30 AM - 8:30 PM</li>
-          <li>Friday-Saturday: 11:30 AM - 2:00 AM</li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Locations | Burney's Hot Chicken — 2 Locations in Honolulu, HI</title>
+  <meta name="description" content="Find Burney's Hot Chicken at two Honolulu locations: 2105 S. King St (open evenings Tues–Sat) and 401 Atkinson Dr (open Tues–Sat 11:30am–9pm). Order online for pickup or delivery." />
+  <meta name="keywords" content="Burney's Hot Chicken locations, hot chicken Honolulu, 2105 S King St Honolulu, 401 Atkinson Honolulu, Nashville chicken Honolulu, chicken pickup delivery Hawaii" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://burneyshotchicken.com/locations.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Locations | Burney's Hot Chicken — 2 Locations in Honolulu, HI" />
+  <meta property="og:description" content="Two Honolulu locations serving Nashville-style hot chicken. Find your nearest spot and order online." />
+  <meta property="og:image" content="https://burneyshotchicken.com/public/img/bhc-logo.png" />
+  <meta property="og:url" content="https://burneyshotchicken.com/locations.html" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Locations | Burney's Hot Chicken — Honolulu, HI" />
+  <meta name="twitter:description" content="Two Honolulu locations. Order online for pickup or delivery." />
+  <meta name="twitter:image" content="https://burneyshotchicken.com/public/img/bhc-logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <!-- Structured Data — Location 1 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Burney's Hot Chicken — S. King St",
+    "image": "https://burneyshotchicken.com/public/img/bhc-logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2105 S. King St",
+      "addressLocality": "Honolulu",
+      "addressRegion": "HI",
+      "postalCode": "96826",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-808-499-7516",
+    "url": "https://burneyshotchicken.com",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "21:00", "closes": "23:59" }
+    ],
+    "servesCuisine": ["Nashville Hot Chicken", "American", "Southern"],
+    "hasMap": "https://www.google.com/maps?q=2105+S.+King+St,+Honolulu,+HI+96826"
+  }
+  </script>
+
+  <!-- Structured Data — Location 2 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Burney's Hot Chicken — Atkinson Dr",
+    "image": "https://burneyshotchicken.com/public/img/bhc-logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "401 Atkinson Dr",
+      "addressLocality": "Honolulu",
+      "addressRegion": "HI",
+      "postalCode": "96814",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-808-499-7516",
+    "url": "https://burneyshotchicken.com",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "11:30", "closes": "21:00" }
+    ],
+    "servesCuisine": ["Nashville Hot Chicken", "American", "Southern"],
+    "hasMap": "https://www.google.com/maps?q=401+Atkinson+Dr,+Honolulu,+HI"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== INFO BAR ===== -->
+  <div class="info-bar">
+    <span><i class="fa-solid fa-location-dot fire"></i> 2 Locations in Honolulu, HI</span>
+    <span class="sep">|</span>
+    <a href="tel:+18084997516"><i class="fa-solid fa-phone fire"></i> (808) 499-7516</a>
+    <span class="sep">|</span>
+    <span><i class="fa-solid fa-clock fire"></i> Tues – Sat &nbsp;·&nbsp; See locations for hours</span>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="navbar-inner">
+        <a class="navbar-brand" href="index.html" aria-label="Burney's Hot Chicken Home">
+          <img src="./public/img/bhc-logo.png" alt="Burney's Hot Chicken logo" />
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks" role="menubar">
+          <li role="none"><a href="index.html#about" role="menuitem">About</a></li>
+          <li role="none"><a href="menu.html" role="menuitem">Menu</a></li>
+          <li role="none"><a href="locations.html" class="active" role="menuitem">Locations</a></li>
+          <li role="none">
+            <a href="https://orders.burneyshotchicken.com/" target="_blank" rel="noopener" class="nav-cta" role="menuitem">
+              Order Now
+            </a>
+          </li>
         </ul>
       </div>
-      <section class="social-media mb-5">
-        <h2>Follow Us</h2>
-        <p>Stay connected with us on:</p>
-        <ul>
-          <li>
-            <i class="fab fa-tiktok"></i>
-            <a href="https://www.tiktok.com/@burneyshotchicken" target="_blank"
-              >@burneyshotchicken</a
-            >
-          </li>
-          <li>
-            <i class="fab fa-instagram"></i>
-            <a
-              href="https://www.instagram.com/burneyshotchicken"
-              target="_blank"
-              >@burneyshotchicken</a
-            >
-          </li>
-          <li>
-            <i class="fab fa-facebook"></i>
-            <a href="https://www.facebook.com/burneyshotchicken" target="_blank"
-              >@burneyshotchicken</a
-            >
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2024 Burney's Hot Chicken. All rights reserved.</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    </nav>
+  </header>
+
+  <!-- ===== LOCATION HERO ===== -->
+  <div class="location-hero">
+    <div class="hero-eyebrow" style="justify-content:center; display:inline-flex; margin-bottom:0.75rem;">
+      <i class="fa-solid fa-location-dot"></i> Find Us
+    </div>
+    <h1>Our Locations</h1>
+    <p>Two spots in Honolulu serving Nashville-style hot chicken. Order online for pickup or delivery.</p>
+  </div>
+
+  <main class="section">
+    <div class="section-inner">
+
+      <!-- Two-location grid -->
+      <div class="two-locations-grid">
+
+        <!-- ── LOCATION 1: S. KING ST ── -->
+        <div class="loc-col">
+          <div class="location-card">
+            <div style="display:flex; align-items:center; gap:0.65rem; margin-bottom:1.25rem;">
+              <div style="width:36px; height:36px; background:rgba(232,52,28,0.12); border:1px solid rgba(232,52,28,0.3); border-radius:8px; display:flex; align-items:center; justify-content:center; color:var(--color-primary); font-size:0.85rem; flex-shrink:0;">1</div>
+              <h2 style="margin:0;">S. King St</h2>
+            </div>
+
+            <div class="location-detail">
+              <div class="location-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location-detail-text">
+                <strong>Address</strong>
+                <a href="https://www.google.com/maps?q=2105+S.+King+St,+Honolulu,+HI+96826" target="_blank" rel="noopener">
+                  2105 S. King St<br>Honolulu, HI 96826
+                </a>
+              </div>
+            </div>
+
+            <div class="location-detail">
+              <div class="location-detail-icon"><i class="fa-solid fa-clock"></i></div>
+              <div class="location-detail-text">
+                <strong>Hours</strong>
+                <ul class="location-hours-list" style="margin-top:0.5rem; list-style:none; padding:0;">
+                  <li><span class="day">Monday</span><span class="time" style="color:var(--color-muted)">Closed</span></li>
+                  <li><span class="day">Tuesday</span><span class="time">9:00pm – Late</span></li>
+                  <li><span class="day">Wednesday</span><span class="time">9:00pm – Late</span></li>
+                  <li><span class="day">Thursday</span><span class="time">9:00pm – Late</span></li>
+                  <li><span class="day">Friday</span><span class="time">9:00pm – Late</span></li>
+                  <li><span class="day">Saturday</span><span class="time">9:00pm – Late</span></li>
+                  <li><span class="day">Sunday</span><span class="time" style="color:var(--color-muted)">Closed</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="location-detail">
+              <div class="location-detail-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="location-detail-text">
+                <strong>Phone</strong>
+                <a href="tel:+18084997516">(808) 499-7516</a>
+              </div>
+            </div>
+
+            <a href="https://orders.burneyshotchicken.com/" target="_blank" rel="noopener" class="btn-order" style="margin-top:1.5rem; width:100%; justify-content:center;">
+              <i class="fa-solid fa-bag-shopping"></i> Order Online
+            </a>
+            <a href="https://www.google.com/maps?q=2105+S.+King+St,+Honolulu,+HI+96826" target="_blank" rel="noopener" class="btn-outline" style="margin-top:0.75rem; width:100%; justify-content:center;">
+              <i class="fa-solid fa-map"></i> Get Directions
+            </a>
+          </div>
+
+          <div class="map-wrapper" style="margin-top:1rem; height:300px;">
+            <iframe
+              title="Burney's Hot Chicken — 2105 S. King St, Honolulu, HI"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.0!2d-157.8395!3d21.2969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006dfb08e9a6fd%3A0xd9c6c4d6a7e62b9!2s2105+S+King+St%2C+Honolulu%2C+HI+96826!5e0!3m2!1sen!2sus!4v1"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- ── LOCATION 2: ATKINSON ── -->
+        <div class="loc-col">
+          <div class="location-card">
+            <div style="display:flex; align-items:center; gap:0.65rem; margin-bottom:1.25rem;">
+              <div style="width:36px; height:36px; background:rgba(232,52,28,0.12); border:1px solid rgba(232,52,28,0.3); border-radius:8px; display:flex; align-items:center; justify-content:center; color:var(--color-primary); font-size:0.85rem; flex-shrink:0;">2</div>
+              <h2 style="margin:0;">Atkinson Dr</h2>
+            </div>
+
+            <div class="location-detail">
+              <div class="location-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="location-detail-text">
+                <strong>Address</strong>
+                <a href="https://www.google.com/maps?q=401+Atkinson+Dr,+Honolulu,+HI" target="_blank" rel="noopener">
+                  401 Atkinson Dr<br>Honolulu, HI
+                </a>
+              </div>
+            </div>
+
+            <div class="location-detail">
+              <div class="location-detail-icon"><i class="fa-solid fa-clock"></i></div>
+              <div class="location-detail-text">
+                <strong>Hours</strong>
+                <ul class="location-hours-list" style="margin-top:0.5rem; list-style:none; padding:0;">
+                  <li><span class="day">Monday</span><span class="time" style="color:var(--color-muted)">Closed</span></li>
+                  <li><span class="day">Tuesday</span><span class="time">11:30am – 9:00pm</span></li>
+                  <li><span class="day">Wednesday</span><span class="time">11:30am – 9:00pm</span></li>
+                  <li><span class="day">Thursday</span><span class="time">11:30am – 9:00pm</span></li>
+                  <li><span class="day">Friday</span><span class="time">11:30am – 9:00pm</span></li>
+                  <li><span class="day">Saturday</span><span class="time">11:30am – 9:00pm</span></li>
+                  <li><span class="day">Sunday</span><span class="time" style="color:var(--color-muted)">Closed</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="location-detail">
+              <div class="location-detail-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="location-detail-text">
+                <strong>Phone</strong>
+                <a href="tel:+18084997516">(808) 499-7516</a>
+              </div>
+            </div>
+
+            <a href="https://orders.burneyshotchicken.com/" target="_blank" rel="noopener" class="btn-order" style="margin-top:1.5rem; width:100%; justify-content:center;">
+              <i class="fa-solid fa-bag-shopping"></i> Order Online
+            </a>
+            <a href="https://www.google.com/maps?q=401+Atkinson+Dr,+Honolulu,+HI" target="_blank" rel="noopener" class="btn-outline" style="margin-top:0.75rem; width:100%; justify-content:center;">
+              <i class="fa-solid fa-map"></i> Get Directions
+            </a>
+          </div>
+
+          <div class="map-wrapper" style="margin-top:1rem; height:300px;">
+            <iframe
+              title="Burney's Hot Chicken — 401 Atkinson Dr, Honolulu, HI"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.0!2d-157.8480!3d21.2819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006f3c0b6b3b3b%3A0x0!2s401+Atkinson+Dr%2C+Honolulu%2C+HI!5e0!3m2!1sen!2sus!4v1"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Social section -->
+      <div style="margin-top:3rem; background:var(--color-surface); border:1px solid var(--color-border); border-radius:16px; padding:2rem; text-align:center;">
+        <p style="color:var(--color-muted); font-size:0.9rem; margin-bottom:1rem;">Stay connected — follow us for daily specials &amp; updates</p>
+        <div style="display:flex; gap:0.85rem; justify-content:center; flex-wrap:wrap;">
+          <a href="https://www.instagram.com/burneyshotchicken" target="_blank" rel="noopener" class="social-link ig" aria-label="Instagram">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="https://www.facebook.com/burneyshotchicken" target="_blank" rel="noopener" class="social-link fb" aria-label="Facebook">
+            <i class="fab fa-facebook"></i> Facebook
+          </a>
+          <a href="https://www.tiktok.com/@burneyshotchicken" target="_blank" rel="noopener" class="social-link tt" aria-label="TikTok">
+            <i class="fab fa-tiktok"></i> TikTok
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="./public/img/bhc-logo.png" alt="Burney's Hot Chicken" />
+          <p>Honolulu's home for Nashville-style hot chicken. Two locations, same bold flavor — made fresh to order.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="https://orders.burneyshotchicken.com/" target="_blank" rel="noopener">Order Online</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Locations</h4>
+          <div style="font-size:0.83rem; color:var(--color-muted); margin-bottom:0.85rem;">
+            <div style="color:var(--color-text); font-weight:600; margin-bottom:0.2rem;">S. King St</div>
+            <div>2105 S. King St, Honolulu</div>
+            <div>Tues–Sat: 9:00pm – Late</div>
+          </div>
+          <div style="font-size:0.83rem; color:var(--color-muted);">
+            <div style="color:var(--color-text); font-weight:600; margin-bottom:0.2rem;">Atkinson Dr</div>
+            <div>401 Atkinson Dr, Honolulu</div>
+            <div>Tues–Sat: 11:30am – 9:00pm</div>
+          </div>
+          <div style="margin-top:1rem;">
+            <a href="tel:+18084997516" style="color:var(--color-muted); font-size:0.88rem; display:flex; align-items:center; gap:0.4rem;">
+              <i class="fa-solid fa-phone" style="color:var(--color-primary);"></i> (808) 499-7516
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Burney's Hot Chicken. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/burneyshotchicken" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/burneyshotchicken" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.tiktok.com/@burneyshotchicken" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating order button (mobile) -->
+  <a href="https://orders.burneyshotchicken.com/" target="_blank" rel="noopener" class="btn-order float-order" aria-label="Order online">
+    <i class="fa-solid fa-fire"></i> Order Now
+  </a>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen);
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded', false);
+      });
+    });
+  </script>
+</body>
 </html>
